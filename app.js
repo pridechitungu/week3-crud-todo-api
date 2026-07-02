@@ -1,3 +1,4 @@
+require('dotenv').config(); // Load .env variables
 const express = require('express');
 const app = express();
 app.use(express.json()); // Parse JSON bodies
